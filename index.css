@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap");
+* {
+  font-family: "Nunito", sans-serif;
+}
+* p {
+  font-size: 16px;
+}
+
+.first button {
+  background-color: #0000FF !important;
+}
+.first h1 {
+  margin-top: 50px;
+  font-size: 40px;
+}
+
+.second {
+  background-color: lightgrey;
+}
+.second button {
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: transparent;
+  color: #0000FF;
+  border: #0000FF 2px solid;
+}
+.second .card {
+  border-radius: 20px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+.second .card:hover {
+  background-color: #0000FF;
+  color: white;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+.second .card .card-content p {
+  font-size: 25px;
+  font-weight: 400;
+}
+.second img {
+  height: 550px;
+  width: 400px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+.second .small-para {
+  font-size: 16px !important;
+}
+
+footer p {
+  font-size: 16px;
+}
+footer input {
+  border: none;
+  width: 200px !important;
+}
+footer button {
+  background-color: #0000FF !important;
+  color: white;
+}
+footer button i {
+  color: white;
+}

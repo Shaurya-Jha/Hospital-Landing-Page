@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+
+$heading: 40px;
+$para: 16px;
+// $small-para: 1px;
+
+*{
+    font-family: 'Nunito', sans-serif;
+    
+    p{
+        font-size: $para;
+    }
+}
+
+.first{
+    button{
+        background-color: #0000FF !important;
+        // transition: 0.3s ease-in-out;
+        // margin-bottom: 10px;
+    }
+
+    h1{
+        margin-top: 50px;
+        font-size: $heading;
+    }
+}
+
+.second{
+    background-color: lightgrey;
+
+    button{
+        border-radius: 50%;
+        cursor: pointer;
+        background-color: transparent;
+        color: #0000FF;
+        border: #0000FF 2px solid;
+    }
+
+    .card{
+        border-radius: 20px;
+        transition: 0.3s ease-in-out;
+
+        &:hover{
+            background-color: #0000FF;
+            color: white;
+            transform: scale(1.05);
+            transition: 0.3s ease-in-out;
+        }
+
+        .card-content{
+            
+            p{
+                font-size: 25px;
+                font-weight: 400;
+            }
+        }
+
+    }
+
+    img{
+        height: 550px;
+        width: 400px;
+        // border: 2px solid red;
+        border-top-right-radius: 40px;
+        border-bottom-left-radius: 40px;
+    }
+
+    .small-para{
+        font-size: $para !important;
+    }
+}
+
+footer{
+
+    p{
+        font-size: $para;
+    }
+
+    input{
+        border: none;
+        // width: 10px;
+        width: 200px !important;
+    }
+
+    button{
+        background-color: #0000FF !important;
+        color: white;
+
+        i{
+            color: white;
+        }
+    }
+}
